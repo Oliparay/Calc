@@ -23,7 +23,7 @@ public class Main {
     );
 
     public static void main(String[] args) {
-        System.out.println("Введите выражение (например, V * V или 5 + 5):");
+        System.out.println("Введите выражение чисел от 1 - 10 (например, V * V или 5 + 5):");
         System.out.println(calc(new Scanner(System.in).nextLine()));
     }
 
